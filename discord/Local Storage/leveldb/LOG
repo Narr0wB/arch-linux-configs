@@ -1,0 +1,23 @@
+2024/06/03-16:15:22.059 cd2 Reusing MANIFEST /home/narrow/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/03-16:15:22.065 cd2 Recovering log #54
+2024/06/03-16:15:22.065 cd2 Reusing old log /home/narrow/.config/discord/Local Storage/leveldb/000054.log 
+2024/06/03-16:16:23.153 cd3 Level-0 table #58: started
+2024/06/03-16:16:23.155 cd3 Level-0 table #58: 47114 bytes OK
+2024/06/03-16:16:23.157 cd3 Delete type=0 #54
+2024/06/03-16:19:22.573 cd2 Level-0 table #60: started
+2024/06/03-16:19:22.599 cd2 Level-0 table #60: 3109589 bytes OK
+2024/06/03-16:19:22.601 cd2 Delete type=0 #57
+2024/06/03-16:36:23.137 cd3 Level-0 table #62: started
+2024/06/03-16:36:23.139 cd3 Level-0 table #62: 27355 bytes OK
+2024/06/03-16:36:23.141 cd3 Delete type=0 #59
+2024/06/03-16:36:23.141 cd3 Compacting 4@0 + 2@1 files
+2024/06/03-16:36:23.160 cd3 Generated table #63@0: 6 keys, 2345493 bytes
+2024/06/03-16:36:23.184 cd3 Generated table #64@0: 39 keys, 785411 bytes
+2024/06/03-16:36:23.184 cd3 Compacted 4@0 + 2@1 files => 3130904 bytes
+2024/06/03-16:36:23.185 cd3 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/06/03-16:36:23.185 cd3 Delete type=2 #62
+2024/06/03-16:36:23.185 cd3 Delete type=2 #58
+2024/06/03-16:36:23.185 cd3 Delete type=2 #52
+2024/06/03-16:36:23.185 cd3 Delete type=2 #53
+2024/06/03-16:36:23.185 cd3 Delete type=2 #55
+2024/06/03-16:36:23.185 cd3 Delete type=2 #60
