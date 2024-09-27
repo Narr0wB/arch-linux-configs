@@ -1,7 +1,7 @@
 local base = require("plugins.configs.lspconfig")
-local on_attach = base.on_attach 
-local capabilites = base.capabilities
-
+local on_attach = base.on_attach
+local capabilities = base.capabilities
+local utils = require("lspconfig/util")
 local lspconfig = require("lspconfig")
 
 local servers = {
@@ -18,6 +18,22 @@ local servers = {
     }
   }
 }
+
+lspconfig.glsl_analyzer.setup({})
+
+lspconfig.rust_analyzer.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"rust"},
+  root_dir = utils.root_pattern("Cargo.toml"),
+  settings = {
+    ["rust-analyzer"] = {
+      cargo = {
+        allFeatures = true,
+      }
+    }
+  }
+})
 
 for _, v in pairs(servers) do
   local name, config = unpack(v)

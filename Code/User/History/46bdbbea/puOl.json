@@ -1,7 +1,0 @@
-{
-    "editor.fontFamily": "'JetBrains Nerd Font'",
-    "editor.fontSize": 15,
-    "workbench.colorTheme": "Catppuccin Macchiato",
-    "window.titleBarStyle": "custom",
-    "terminal.integrated.fontFamily": "monospace"
-}
